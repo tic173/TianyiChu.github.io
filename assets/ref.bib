@@ -101,6 +101,7 @@ abstract ={An orthogonal modal decomposition for identifying triadic interaction
   year={2023},
   publisher={Elsevier},
 doi = {10.1016/j.jcp.2022.111756},
+abstract = {A semi-implicit fractional-step method that uses a staggered node layout and radial basis function-finite differences (RBF-FD) to solve the incompressible Navier-Stokes equations is developed. Polyharmonic splines (PHS) with polynomial augmentation (PHS+poly) are used to construct the global differentiation matrices. A systematic parameter study identifies a combination of stencil size, PHS exponent, and polynomial degree that minimizes the truncation error for a wave-like test function on scattered nodes. Classical modified wavenumber analysis is extended to RBF-FDs on heterogeneous node distributions and used to confirm that the accuracy of the selected 28-point stencil is comparable to that of spectral-like, 6th-order Pad\'e-type finite differences. The Navier-Stokes solver is demonstrated on two benchmark problems, internal flow in a lid-driven cavity in the Reynolds number regime $10^2 \leq \mathrm{Re}\leq 10^4$, and open flow around a cylinder at $\mathrm{Re}= 100$ and $200$. The combination of grid staggering and careful parameter selection facilitates accurate and stable simulations at significantly lower resolutions than previously reported, using more compact RBF-FD stencils, without special treatment near solid walls, and without the need for hyperviscosity or other means of regularization.}
 }
 
 @thesis{chu2023analytical,
@@ -130,6 +131,7 @@ The result models accurately predict the initial transient dynamics and reproduc
   pages={3567},
   year={2023},
 doi = {10.2514/6.2023-3567},
+abstract = {A high-order mesh-free hydrodynamic stability analysis framework is developed based on radial basis function-based finite differences (RBF-FD). The global linearized Navier-Stokes operator is discretized using polyharmonic spline RBFs with polynomial augmentation (PHS+poly). As a validation test case, the non-parallel flat-plate boundary layer within a computational domain corresponding to a local Reynolds number of 0 ≤ Re_x ≤ 6x10^5 is considered. The computational domain is discretized using scattered nodes created by an unstructured mesh generator. The discrete resolvent operator is constructed, and its singular components are analyzed. The resulting optimal response modes are identified as Tollmien-Schlichting (TS) wavepackets. These responses are optimally forced by the upstream tilted structures that leverage the Orr mechanism. Favorable comparisons to previous literature, both qualitatively and quantitatively, validate the novel framework.}
 }
 
 @article{llewellyn2022equations,
@@ -151,6 +153,8 @@ abstract = {Equations of motion for compressible point vortices in the plane are
   booktitle={AIAA AVIATION 2022 Forum},
   pages={4098},
   year={2022}
+doi = {10.2514/6.2022-4098},
+abstract = {Radial basis function-based finite differences (RBF-FD) are used to develop a high-order mesh-free hydrodynamic stability analysis tool for complex geometries. Polyharmonic spline RBFs with polynomial augmentation (PHS+poly) are used to construct the discrete linearized Navier-Stokes and resolvent operators on arbitrarily scattered nodes. The PHS+poly discretization is shown to yield accurate, stable, and computationally efficient discretizations of the large hydrodynamic stability matrix problems arising in two-dimensional classical linear theory and resolvent analysis. The mean-flow stability of the wake behind a cylinder in the vicinity of the critical point is studied using both theories. The predicted flow instabilities, including the vortex shedding frequency and associated coherent structures, closely match those reported in the literature.}
 }
 
 @article{chu2021stochastic,
@@ -187,7 +191,9 @@ abstract = {The equations of motion for an incompressible flow with helical symm
   author={Chu, Tianyi and Schmdit, Oliver},
   booktitle={AIAA AVIATION 2021 FORUM},
   pages={2743},
-  year={2021}
+  year={2021},
+doi = {10.2514/6.2021-2743},
+abstract = {Radial basis function-finite differences (RBF-FD) are used to solve the incompressible Navier-Stokes equations on scattered nodes. We present a semi-implicit fractional-step method that uses a staggered grid arrangement. The RBF-QR method devised by Fornberg and Piret[1] is used to obtain the RBF-FD weights for the spatial derivatives. We propose a rigorous error analysis strategy to identify optimal combinations of the shape parameter, ε, and the stencil size,n. A modified wavenumber analysis shows that the accuracy of the RBF differentiation matrices based on the optimal parameters is comparable to 4th-order Padé-type finite differences, for both first and second derivatives. The internal flow in a lid-driven cavity is studied as an example. We demonstrate that stable solutions are obtained without the need for hyperviscosity.},
 }
 
 
