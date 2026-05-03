@@ -103,11 +103,24 @@ abstract ={An orthogonal modal decomposition for identifying triadic interaction
 doi = {10.1016/j.jcp.2022.111756},
 }
 
-@phdthesis{chu2023analytical,
+@thesis{chu2023analytical,
   title={Analytical, computational, and reduced-order modeling of vortical and turbulent flows},
   author={Chu, Tianyi},
   year={2023},
   school={University of California, San Diego},
+doi = {escholarship.org/uc/item/6c86884h},
+abstract = {This work delves into three fundamental aspects of fluid dynamics: (\romannum{1}) theoretical investigation, (\romannum{2}) computational methodologies, and (\romannum{3}) reduced-order modeling.The starting point is the near-perfect model for general fluid flows: the Navier-Stokes equations.
+For the first part, we investigate the motion of point vortices under the assumption of small Mach number $(M\ll 1)$.
+We use a Rayleigh--Jansen expansion and the method of Matched Asymptotic Expansions to analyze the motion of the vortices at different time scales. Our study shows the motion undergoes modifications over long time scales $O(M^2 \log{M})$ and $O(M^2)$.
+
+Generally, the Navier-Stokes equations require the application of accurate, high-fidelity computational methods for their solutions. To this end, we explore the use of radial basis function-based finite difference (RBF-FD) discretizations for both flow simulations and hydrodynamic stability analysis, which comprise the core of the second part.
+Polyharmonic spline functions with polynomial augmentation (PHS+poly) are used to construct the global differentiation matrices and the discrete linearized Navier-Stokes operators on scattered nodes. A systematic parameter study is carried out to identify a set of parameters that guarantee stability while balancing accuracy and computational efficiency. Based on this, we develop a mesh-free semi-implicit fractional-step Navier-Stokes solver that uses a staggered node layout. We employ classical linear stability (LST) analysis and state-of-the-art resolvent analysis (RA) to identify flow instabilities.
+
+An alternative way to extract large-scale coherent structures from flow-field data is the utilization of modal decomposition techniques.
+In the third part, we revisit the connection between spectral proper orthogonal decomposition (SPOD) and other techniques while demonstrating its theoretical correspondence to time-delay analysis.
+Using SPOD modes, we establish two model order-reduction techniques, namely the operator-based Galerkin projection and the data-driven time-delay Koopman approach.
+Following the core concept of Koopman theory that an infinite-dimensional linear operator can describe the nonlinear dynamics, we inflate the linear state with an exogenous forcing to account for the nonlinear interactions and background turbulence. Closure is achieved by modeling the remaining residue as stochastic noise.
+The result models accurately predict the initial transient dynamics and reproduce the second-order statistics of broadband turbulent flows.},
 }
 
 @inproceedings{chu2023rbf,
@@ -128,6 +141,8 @@ doi = {10.2514/6.2023-3567},
   year={2022},
   publisher={The Royal Society},
 doi = {10.1098/rsta.2021.0052},
+abstract = {Equations of motion for compressible point vortices in the plane are obtained in the limit of small Mach number, M, using a Rayleigh–Jansen expansion and the method of Matched Asymptotic Expansions. The solution in the region between vortices is matched to solutions around each vortex core. The motion of the vortices is modified over long time scales $O(M^2log{M})$ and 
+⁠$O(M^2)$. Examples are given for co-rotating and co-propagating vortex pairs. The former show a correction to the rotation rate and, in general, to the centre and radius of rotation, while the latter recover the known result that the steady propagation velocity is unchanged. For unsteady configurations, the vortex solution matches to a far field in which acoustic waves are radiated.}
 }
 
 @inproceedings{chu2022mesh,
