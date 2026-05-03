@@ -116,7 +116,6 @@ doi = {10.1016/j.jcp.2022.111756},
   author={Chu, Tianyi},
   year={2023},
   school={University of California, San Diego},
-doi = {escholarship.org/uc/item/6c86884h},
 }
 
 @inproceedings{chu2023rbf,
@@ -124,7 +123,8 @@ doi = {escholarship.org/uc/item/6c86884h},
   author={Chu, Tianyi and Schmidt, Oliver T},
   booktitle={AIAA AVIATION 2023 Forum},
   pages={3567},
-  year={2023}
+  year={2023},
+doi = {10.2514/6.2023-3567},
 }
 
 @article{llewellyn2022equations,
@@ -134,7 +134,8 @@ doi = {escholarship.org/uc/item/6c86884h},
   volume={380},
   number={2226},
   year={2022},
-  publisher={The Royal Society}
+  publisher={The Royal Society},
+doi = {10.1098/rsta.2021.0052},
 }
 
 @inproceedings{chu2022mesh,
@@ -153,7 +154,10 @@ doi = {escholarship.org/uc/item/6c86884h},
   number={6},
   pages={759--782},
   year={2021},
-  publisher={Springer}
+  publisher={Springer},
+doi = {10.1007/s00162-021-00588-6},
+abstract = {The use of spectral proper orthogonal decomposition (SPOD) to construct low-order models for broadband turbulent flows is explored. The choice of SPOD modes as basis vectors is motivated by their optimality and space-time coherence properties for statistically stationary flows. This work follows the modeling paradigm that complex nonlinear fluid dynamics can be approximated as stochastically forced linear systems. The proposed stochastic two-level SPOD-Galerkin model governs a compound state consisting of the modal expansion coefficients and forcing coefficients. In the first level, the modal expansion coefficients are advanced by the forced linearized Navier-Stokes operator under the linear time-invariant assumption. The second level governs the forcing coefficients, which compensate for the offset between the linear approximation and the true state. At this level, least squares regression is used to achieve closure by modeling nonlinear interactions between modes. The statistics of the remaining residue are used to construct a dewhitening filter that facilitates the use of white noise to drive the model. If the data residue is used as the sole input, the model accurately recovers the original flow trajectory for all times. If the residue is modeled as stochastic input, then the model generates surrogate data that accurately reproduces the second-order statistics and dynamics of the original data. The stochastic model uncertainty, predictability, and stability are quantified analytically and through Monte Carlo simulations. The model is demonstrated on large eddy simulation data of a turbulent jet at Mach number 
+ and Reynolds number Re=10e6.},
 }
 
 @article{chu2021helical,
@@ -164,7 +168,10 @@ doi = {escholarship.org/uc/item/6c86884h},
   number={6},
   pages={600--617},
   year={2021},
-  publisher={Springer}
+  publisher={Springer},
+doi = (10.1134/S1560354721060022),
+abstract = {The equations of motion for an incompressible flow with helical symmetry (invariance under combined axial translation and rotation) can be expressed as nonlinear evolution laws for two scalars: vorticity and along-helix velocity. A metric term related to the pitch of the helix enters these equations, which reduce to two-dimensional and axisymmetric dynamics in appropriate limits. We take the vorticity and along-helix velocity component to be piecewise constant. In addition to this vortex patch, a vortex sheet develops when the along-helix velocity is nonzero. We obtain a contour dynamics formulation of the full nonlinear equations of motion, in which the motion of the boundary is computed in a Lagrangian fashion and the velocity field can be expressed as contour integrals, reducing the dimensionality of the computation. We investigate the stability properties of a circular vortex patch along the axis of the helix in the presence of a vortex sheet and along-helix velocity. A linear stability calculation shows that the system is stable when the initial vortex sheet is zero, but can be stable or unstable in the presence of a vortex sheet. Using contour dynamics, we examine the nonlinear evolution of the system, and show that nonlinear effects become important in unstable cases.
+}
 }
 
 
@@ -185,5 +192,7 @@ doi = {escholarship.org/uc/item/6c86884h},
   number={5},
   pages={507--518},
   year={2018},
-  publisher={Springer}
+  publisher={Springer},
+doi = {10.1134/S1560354718050027},
+abstract = {Contour dynamics is a computational technique to solve for the motion of vortices in incompressible inviscid flow. It is a Lagrangian technique in which the motion of contours is followed, and the velocity field moving the contours can be computed as integrals along the contours. Its best-known examples are in two dimensions, for which the vorticity between contours is taken to be constant and the vortices are vortex patches, and in axisymmetric flow for which the vorticity varies linearly with distance from the axis of symmetry. This review discusses generalizations that incorporate additional physics, in particular, buoyancy effects and magnetic fields, that take specific forms inside the vortices and preserve the contour dynamics structure. The extra physics can lead to time-dependent vortex sheets on the boundaries, whose evolution must be computed as part of the problem. The non-Boussinesq case, in which density differences can be important, leads to a coupled system for the evolution of both mean interfacial velocity and vortex sheet strength. Helical geometry is also discussed, in which two quantities are materially conserved and whose evolution governs the flow.}
 }
