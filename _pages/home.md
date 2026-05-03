@@ -9,27 +9,29 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational fluid dynamics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Model-order reduction</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Hydrodynamic instabilities</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Multiphase flows</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Turbulence</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian optimal experimental design</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data-driven modeling</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data assimilation</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Meshfree computations</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Model inference & selection</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+High-speed, turbulent, and complex flows are fundamental to diverse natural and engineered systems, where they critically influence energy efficiency and sustainability. Yet, their complex dynamics, multiscale turbulence, and coupled multiphysics hinder accurate prediction and efficient control. My research aims to address this gap by developing unified digital twins (DTs) that dynamically integrate computations with physical processes. These adaptive DTs operate within a closed-loop, receding-horizon feedback loop that couples models, simulations, and data to enable system optimization, informed decision-making, predictive control, real-time forecasting, and uncertainty quantification.
 
 <!-- <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
 <p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
 </div> -->
 
-<div class="banner-frame" markdown="0">
+<!-- <div class="banner-frame" markdown="0">
 <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
 <div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
+</div> -->
 
 ### About me
 
