@@ -2,7 +2,9 @@
   title={Accelerating Bayesian Optimal Experimental Design via Local Radial Basis Functions: Application to Soft Material Characterization},
   author={Chu, Tianyi and Estrada, Jonathan B and Bryngelson, Spencer H},
   journal={arXiv preprint arXiv:2505.13283},
-  year={2026}
+  year={2026},
+abstract = {We develop a computational approach that significantly improves the efficiency of Bayesian optimal experimental design (BOED) using local radial basis functions (RBFs). The RBF–BOED method uses RBFs’ ability to handle scattered parameter points, a property that aligns naturally with the probabilistic sampling inherent to Bayesian methods. By constructing accurate deterministic surrogates from local neighborhood information, the method enables high-order approximations with reduced computational overhead. As a result, computing the expected information gain (EIG) requires evaluating only a small uniformly sampled subset of prior parameter values, greatly reducing the number of expensive forward-model simulations needed. For demonstration, we apply RBF–BOED to optimize a laser-induced cavitation (LIC) experimental setup, in which forward simulations based on inertial microcavitation rheometry (IMR) characterize the viscoelastic properties of hydrogels. The underlying highly nonlinear bubble-dynamics model exemplifies the practical challenges encountered in BOED applications. Two experimental design scenarios, single- and multi-constitutive-model problems, are explored. Results show that EIG estimates can be obtained at just 8% of the full computational cost in a five-model problem within a two-dimensional design space. This advance offers a scalable approach to optimal experimental design for soft and biological materials.},
+doi = {10.1016/j.jcp.2026.115002},
 }
 
 @article{yeung2026triadic,
@@ -20,13 +22,14 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
 
 @article{yu2025energy,
   title={Energy dissipation mechanisms in an acoustically-driven slit},
-  author={Yu, Haocheng and Chu, Tianyi and Bryngelson, Spencer H},
+  author={*Yu, Haocheng and *Chu, Tianyi and Bryngelson, Spencer H},
+note = {*Equal contribution.},
   journal={arXiv preprint arXiv:2512.19507},
   year={2025}
 }
 
 
-@article{yu2025direction,
+@misc{yu2025direction,
   title={Direction Numerical Simulation Data: 2D Acoustic Slit},
   author={Yu, Haocheng and Chu, Tianyi and Bryngelson, Spencer},
   year={2025},
@@ -41,7 +44,9 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   volume={481},
   number={2323},
   year={2025},
-  publisher={The Royal Society}
+  publisher={The Royal Society},
+doi = {10.1098/rspa.2025.0270},
+abstract={A stochastic data-driven reduced-order model applicable to a wide range of turbulent natural and engineering flows is presented. Combining ideas from Koopman theory and spectral model order reduction, the stochastic low-dimensional inflated convolutional Koopman model accurately forecasts short-time transient dynamics while preserving long-term statistical properties. A discrete Koopman operator is used to evolve convolutional coordinates that govern the temporal dynamics of spectral orthogonal modes, which, in turn, represent the energetically most salient large-scale coherent flow structures. Turbulence closure is achieved in two steps: first, by inflating the convolutional coordinates to incorporate nonlinear interactions between different scales, and second, by modelling the residual error as a stochastic source. An empirical dewhitening filter informed by the data is used to maintain the second-order flow statistics. The model uncertainty is quantified through either Monte–Carlo simulation or by directly propagating the model covariance matrix. The model is demonstrated on the Ginzburg–Landau equations, large-eddy simulation data of a turbulent jet, and particle image velocimetry data of the flow over an open cavity. In all cases, the model is predictive over time horizons indicated by a detailed error analysis and integrates stably over arbitrary time horizons, generating realistic surrogate data.}
 }
 
 @article{chu2025competing,
@@ -52,7 +57,9 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   number={9},
   pages={093904},
   year={2025},
-  publisher={APS}
+  publisher={APS},
+doi = {10.1103/r9b3-psg4},
+abstract ={Fluid-fluid interfacial instability and subsequent fluid mixing are ubiquitous in nature and engineering. The hydrodynamic instability of fluid interfaces has long centered on the pressure gradient-driven long-wavelength Rayleigh-Taylor instability and the resonance-induced short-wavelength Faraday instability. However, neither instability alone can explain the dynamics when both mechanisms are present. We identify a previously unseen multi-modal instability emerging from their coexistence. When the denser fluid is polydimethylsiloxane, the mixed region at a high density contrast (Atwood number = 0.9) spans a vibration amplitude range approximately twice the gravitational acceleration. Using Floquet stability analysis, we show how vibrations govern transitions between the RT and Faraday instabilities, leading to contention between these instabilities rather than resonant enhancement. The initial transient growth is represented by the exponential modal growth of the most unstable Floquet exponent, along with its accompanying periodic behavior. Direct numerical simulations validate these findings and track interface breakup into the multiscale and nonlinear regimes. Specifically, we show that growing RT modes nonlinearly suppresses Faraday responses even when the initial growth rate of the Faraday instability is 3.63 times that of RT, so a bidirectional competition hinders their sustained coexistence.}
 }
 
 
@@ -65,6 +72,10 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   pages={431--447},
   year={2025},
   publisher={Springer}
+doi = {10.1007/s00466-025-02606-4},
+abstract= {An optimal sequential experimental design approach is developed to computationally characterize soft material properties at the high strain rates associated with bubble cavitation. The approach involves optimal design and model inference. The optimal design strategy maximizes the expected information gain in a Bayesian statistical setting to design experiments that provide the most informative cavitation data about unknown soft material properties. We infer constitutive models by characterizing the associated viscoelastic properties from measurements via a hybrid ensemble-based 4D-Var method (En4D-Var). The inertial microcavitation-based high strain-rate rheometry (IMR) method (Estrada et al. J Mech Phys Solids 112:291–317, 2018) simulates the bubble dynamics under laser-induced cavitation. We use experimental measurements to create synthetic data representing the viscoelastic behavior of stiff and soft polyacrylamide hydrogels under realistic uncertainties. The synthetic data are seeded with larger errors than state-of-the-art measurements yet matches known material properties, reaching 
+ relative error within 10 sequential designs (experiments). We discern between two seemingly equally plausible constitutive models, Neo-Hookean Kelvin–Voigt and quadratic Kelvin–Voigt, with a probability of correctness larger than 
+ in the same number of experiments. This strategy discovers soft material properties, including discriminating between constitutive models and discerning their parameters, using only a few experiments.}
 }
 
 @article{chu2024mesh,
@@ -74,7 +85,9 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   volume={502},
   pages={112822},
   year={2024},
-  publisher={Elsevier}
+  publisher={Elsevier},
+doi = {10.1016/j.jcp.2024.112822},
+abstract = {A specialized mesh-free radial basis function-based finite difference (RBF-FD) discretization is used to solve the large eigenvalue problems arising in hydrodynamic stability analyses of flows in complex domains. Polyharmonic spline functions with polynomial augmentation (PHS+poly) are used to construct the discrete linearized incompressible and compressible Navier-Stokes operators on scattered nodes. Rigorous global and local eigenvalue stability studies of these global operators and their constituent RBF stencils provide a set of parameters that guarantee stability without the need for hyperviscosity or other ad hoc regularizations, while balancing accuracy and computational efficiency. Specialized elliptical stencils to compute boundary-normal derivatives are introduced, and the treatment of reflectional and rotational symmetries is discussed. In particular, treating the pole singularity in cylindrical coordinates permits dimensionality reduction from 3D to 2D in rotational flows like jets. The numerical framework is demonstrated and validated on several hydrodynamic stability methods ranging from classical linear theory of laminar flows to state-of-the-art non-modal approaches that are applicable to turbulent mean flows. The examples include linear stability, resolvent, and wavemaker analyses of cylinder flow at Reynolds numbers ranging from 47 to 180, and resolvent and wavemaker analyses of the self-similar flat-plate boundary layer at a Reynolds number as well as the turbulent mean of a high-Reynolds-number transonic jet at Mach number 0.9. All previously-known results are found in close agreement with the literature. Finally, the resolvent-based wavemaker analyses of the Blasius boundary layer and turbulent jet flows offer new physical insight into the modal and non-modal growth in these flows.}
 }
 
 @inproceedings{chu2024orthogonal,
@@ -82,7 +95,9 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   author={Chu, Tianyi and Yeung, Brandon and Schmidt, Oliver T},
   booktitle={AIAA AVIATION FORUM AND ASCEND 2024},
   pages={4187},
-  year={2024}
+  year={2024},
+doi = {arc.aiaa.org/doi/10.2514/6.2024-4187},
+abstract ={An orthogonal modal decomposition for identifying triadic interactions in fluid flows is presented. The decomposition is based on spectral momentum transfer and extracts coherent structures that partake in three-wave interactions and are optimal in terms of the third-order space-time flow statistics. The method distinguishes between two quadratically interacting components, one acting as a catalyst and the other as a donor of momentum, that collectively contribute to a tertiary component, the recipient. The resulting modes maximize the covariance between the donor and recipient for each triad. The method can be understood as an extension of bispectral mode decomposition (BMD) by considering the exact form of the quadratic nonlinearity of the Navier-Stokes equations. Unlike BMD, and more similar to classical proper orthogonal decomposition (POD), it provides ranked bases for the donor and recipient that are jointly optimal and orthonormal in their respective inner products. Two applications are considered: numerical data of a canonical unsteady cylinder wake and experimental data of a turbulent wind turbine wake by Biswas and Buxton (JFM, 2024).}
 }
 
 @article{chu2023rbf,
@@ -92,14 +107,18 @@ abstract = {Energy transfer across scales is fundamental in fluid dynamics, link
   volume={474},
   pages={111756},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier},
+doi = {10.1016/j.jcp.2022.111756},
+abstract = {A semi-implicit fractional-step method that uses a staggered node layout and radial basis function-finite differences (RBF-FD) to solve the incompressible Navier-Stokes equations is developed. Polyharmonic splines (PHS) with polynomial augmentation (PHS+poly) are used to construct the global differentiation matrices. A systematic parameter study identifies a combination of stencil size, PHS exponent, and polynomial degree that minimizes the truncation error for a wave-like test function on scattered nodes. Classical modified wavenumber analysis is extended to RBF-FDs on heterogeneous node distributions and used to confirm that the accuracy of the selected 28-point stencil is comparable to that of spectral-like, 6th-order Padé-type finite differences. The Navier-Stokes solver is demonstrated on two benchmark problems, internal flow in a lid-driven cavity in the Reynolds number regime, and open flow around a cylinder at  and 200. The combination of grid staggering and careful parameter selection facilitates accurate and stable simulations at significantly lower resolutions than previously reported, using more compact RBF-FD stencils, without special treatment near solid walls, and without the need for hyperviscosity or other means of regularization.
+},
 }
 
 @phdthesis{chu2023analytical,
   title={Analytical, computational, and reduced-order modeling of vortical and turbulent flows},
   author={Chu, Tianyi},
   year={2023},
-  school={University of California, San Diego}
+  school={University of California, San Diego},
+doi = {escholarship.org/uc/item/6c86884h},
 }
 
 @inproceedings{chu2023rbf,
