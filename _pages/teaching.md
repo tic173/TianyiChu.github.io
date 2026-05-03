@@ -7,12 +7,20 @@ permalink: /teaching/
 
 ## Teaching
 
+### Teaching Assistant, UCSD
 <div class="section-card">
 <ul>
-<li>Physics 1, 2, 3: The Feynman Lectures on Physics (1961&#8211;63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
-<li>Fluid Mechanics II (Winter 2020, Winter 2022)</li>
-<li>Intro/Applied Mathematics I (Fall 2018)</li>
-<li>Graduate QED Seminar (1953&#8211;88)</li>
-<li>Physics X: Informal undergraduate Q&amp;A sessions (1961&#8211;78)</li>
+<li>MAE 210B: Fluid Mechanics II (Winter 2020, Winter 2022)</li>
+<li>MAE 101B: Advanced Fluid Mechanics (Winter 2019, Summer 2020)</li>
+<li>MAE 194B: Intro/Applied Mathematics II (Winter 2019)</li>
+<li>MAE 194A: Intro/Applied Mathematics I (Fall 2018)</li>
+</ul>
+</div>
+
+### Teaching Assistant, UM-SJTU JI
+<div class="section-card">
+<ul>
+<li> VM320: Fluid Mechanics I (Fall 2016)</li>
+<li> VM395: Laboratory I (Fall 2016)</li>
 </ul>
 </div>
