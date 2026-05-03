@@ -14,11 +14,13 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Hydrodynamic instabilities</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Multiphase flows</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Turbulence</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Acoustics</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Bayesian optimal experimental design</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data-driven modeling</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Data assimilation</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Meshfree computations</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Model inference & selection</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Uncertainty quantification</a>  
 </div>
 
 High-speed, turbulent, and complex flows are fundamental to diverse natural and engineered systems, where they critically influence energy efficiency and sustainability. Yet, their complex dynamics, multiscale turbulence, and coupled multiphysics hinder accurate prediction and efficient control. My research aims to address this gap by developing unified digital twins (DTs) that dynamically integrate computations with physical processes. These adaptive DTs operate within a closed-loop, receding-horizon feedback loop that couples models, simulations, and data to enable system optimization, informed decision-making, predictive control, real-time forecasting, and uncertainty quantification.
