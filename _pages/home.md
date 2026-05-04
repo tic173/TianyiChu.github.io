@@ -43,3 +43,11 @@ Additionally, I obtained my M.S. from UCSD, where I worked with Prof. Stefan Lle
 My research focused on understanding the dynamics and physics of turbulent flows by incorporating theories, computational methods, and experiments.
 The main approaches used for my research include computational fluid dynamics, data assimilation, data-driven methods, mesh-free methods, optimal experimental designs, and reduced-order models.
 
+
+### Upcoming Events
+
+####  AIAA AVIATION Forum 2026
+San Diego, California. June 8-12, 2026.
+
+####  20th U.S. National Congress on Theoretical and Applied Mechanics
+Pasadena, California. June 21-25, 2026
