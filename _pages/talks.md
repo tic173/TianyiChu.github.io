@@ -18,5 +18,5 @@ permalink: /talks/
 
 <h3>Contributed Talks</h3>
 
-{% bibliography --query @incollection[keywords ^= contribued] %}
+{% bibliography --query @incollection[keywords ^= contributed] %}
 </div>
