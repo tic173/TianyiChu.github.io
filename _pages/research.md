@@ -46,9 +46,9 @@ permalink: /research/
 <p class="research-desc">
 Radial basis functions (RBF)-based discretizations have emerged as a viable alternative to established approaches for computational fluid dynamics (CFD). Their mesh-free discretizations on scattered nodes make them especially well-suited for unstructured domains, intricate geometries, and even probabilistic sampling. We have developed RBF-based frameworks for:
   
-    &bull; semi-implicit fractional-step, scattered-but-staggered solvers for the incompressible Navier&ndash;Stokes equations <br>
-    &bull; llarge-scale hydrodynamic stability analyses involving large eigenvalue problems <br>
-    &bull; accelerated Bayesian optimal experimental design (BOED) algorithms <br>
+    &bull; Semi-implicit fractional-step, scattered-but-staggered solvers for the incompressible Navier&ndash;Stokes equations <br>
+    &bull; Large-scale hydrodynamic stability analyses involving large eigenvalue problems <br>
+    &bull; Accelerated Bayesian optimal experimental design (BOED) algorithms <br>
   
 </p>
 </div>
@@ -58,7 +58,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/quantum-computing.svg" class="research-thumb" alt="Quantum circuit">
 <div class="research-body">
 <h4 class="research-title">Linear spectral model-order reduction</h4>
-<p class="research-desc"> Real-time prediction remains a major challenge in high-speed turbulent-flow modeling, where the computational cost of traditional CFD often precludes rapid forecasting and decision-making. To address this challenge, we develop linear stochastic reduced-order models (ROMs) for broadband turbulence, including systems with well-defined governing equations as well as systems for which explicit physical models are difficult to formulate because of incomplete data or complex multiscale dynamics. These models forecast short-term transient dynamics while preserving long-term statistical properties, thereby reducing computational cost and enabling efficient analysis of large-scale datasets.:
+<p class="research-desc"> Real-time prediction remains a major challenge in high-speed turbulent-flow modeling. We develop linear stochastic reduced-order models (ROMs) to enable rapid forecasting and decision-making for broadband turbulence, including systems with well-defined governing equations as well as systems for which explicit physical models are difficult to formulate because of incomplete data or complex multiscale dynamics. These models forecast short-term transient dynamics while preserving long-term statistical properties, thereby reducing computational cost and enabling efficient analysis of large-scale datasets: 
   
     &bull; Operator-based Galerkin projection: Stochastic two-level SPOD-Galerkin model <br>
     &bull; Data-driven time-delay Koopman approach: Stochastic Low-dimensional Inflated Convolutional Koopman (SLICK) model <br>
