@@ -12,14 +12,15 @@ permalink: /research/
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/qed.svg" class="research-thumb" alt="Feynman diagram">
 <div class="research-body">
-<h4 class="research-title">Nonlinear momentum and energy transfer</h4>
+<h4 class="research-title">Nonlinear spectral momentum and energy transfer</h4>
 <p class="research-desc">Triadic interactions among three wave components form complex networks across scales, challenging understanding and model reduction. We introduce Triadic Orthogonal Decomposition (TOD), a method that identifies coherent flow structures optimally capturing spectral momentum transfer, quantifies their coupling and energy exchange in an energy budget bispectrum, and reveals the regions where they interact.
 
-* Donor-Catalyst-Recipient interpretation. 
-* Energy-ranked momentum coupling & exchange.
-* Direction, magnitude, and structure of transfer.
-* Flow instability/ROMs/flow control/…
-
+  <ul class="research-bullets">
+        <li>Donor–Catalyst–Recipient interpretation.</li>
+        <li>Energy-ranked momentum coupling and exchange.</li>
+        <li>Direction, magnitude, and structure of transfer.</li>
+        <li>Applications to flow instability, ROMs, flow control, and related problems.</li>
+  </ul>
 
 </p>
 </div>
