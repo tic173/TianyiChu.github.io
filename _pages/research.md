@@ -13,7 +13,7 @@ permalink: /research/
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/qed.svg" class="research-thumb" alt="Feynman diagram">
 <div class="research-body">
 <h4 class="research-title">Nonlinear spectral momentum and energy transfer</h4>
-<p class="research-desc">Triadic interactions among three wave components form complex networks across scales, challenging understanding and model reduction. We introduce Triadic Orthogonal Decomposition (TOD) to identify coherent flow structures that optimally capture spectral momentum transfer, quantify their coupling and energy exchange, and reveal the regions where they interact.
+<p class="research-desc">Triadic interactions among three wave components form complex networks across scales, challenging understanding and model reduction. We introduce Triadic Orthogonal Decomposition (TOD) to identify coherent flow structures that optimally capture spectral momentum transfer, quantify their coupling and energy exchange, and reveal the regions where they interact:
 
     &bull; Donor–Catalyst–Recipient interpretation<br>
     &bull; Energy-ranked momentum coupling and exchange<br>
@@ -28,7 +28,7 @@ permalink: /research/
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/superfluidity.svg" class="research-thumb" alt="Superfluid helium">
 <div class="research-body">
 <h4 class="research-title">Bayesian sequential feedback loops for Rheometry</h4>
-<p class="research-desc">Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design (BOED), data assimilation (DA).These methods enable efficient recovery of material properties, uncertainty-aware model selection, and adaptive refinement of experimental protocols.
+<p class="research-desc">Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design (BOED), data assimilation (DA).These methods enable efficient recovery of material properties, uncertainty-aware model selection, and adaptive refinement of experimental protocols:
 
     &bull; Collapse-time IMR estimator for viscoelasticity <br>
     &bull; BOED strategies for identifying the most informative measurements <br>
@@ -71,7 +71,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/nanotechnology.svg" class="research-thumb" alt="Atomic manipulation">
 <div class="research-body">
 <h4 class="research-title">Multi-fluid interface instability</h4>
-<p class="research-desc">Competition between Rayleigh&ndash;Taylor and Faraday mechanisms at density-contrast interfaces produces multi-modal regimes, sharp transitions, and breakup maps under vibration — with implications for mixing, atomization, and near-surface gas transport.
+<p class="research-desc">Competition between Rayleigh&ndash;Taylor and Faraday mechanisms at density-contrast interfaces produces multi-modal regimes, sharp transitions, and breakup maps under vibration — with implications for mixing, atomization, and near-surface gas transport:
   
     &bull; Floquet/modal analysis of regime transitions and onset <br>
     &bull; Direct numerical simulation through nonlinear breakup <br>
