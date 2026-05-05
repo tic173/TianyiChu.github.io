@@ -28,7 +28,7 @@ permalink: /research/
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/superfluidity.svg" class="research-thumb" alt="Superfluid helium">
 <div class="research-body">
 <h4 class="research-title">Bayesian sequential feedback loops for Rheometry</h4>
-<p class="research-desc">Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design (BOED), data assimilation (DA).These methods enable efficient recovery of material properties, uncertainty-aware model selection, and adaptive refinement of experimental protocols:<br>
+<p class="research-desc">Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design (BOED), and data assimilation (DA). This framework enable efficient recovery of material properties, uncertainty-aware model selection, and adaptive refinement of experimental protocols:<br>
 
     &bull; Collapse-time IMR estimator for viscoelasticity <br>
     &bull; BOED strategies for identifying the most informative measurements <br>
@@ -58,7 +58,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/quantum-computing.svg" class="research-thumb" alt="Quantum circuit">
 <div class="research-body">
 <h4 class="research-title">Linear spectral model-order reduction</h4>
-<p class="research-desc"> Real-time prediction and control remain a major challenge for high-speed turbulent flows. We develop two linear stochastic reduced-order models (ROMs) to enable rapid forecasting and decision-making for broadband turbulent flows. These models forecast short-term transient dynamics while preserving long-term statistical properties, thereby reducing computational cost and enabling efficient analysis of large-scale datasets: <br>
+<p class="research-desc"> Real-time prediction and control remain a major challenge for high-speed turbulent flows. We develop two linear stochastic reduced-order models (ROMs) to enable rapid forecasting and decision-making for broadband turbulent flows. These models forecast short-term transient dynamics while preserving long-term statistical properties, reducing computational cost and enabling efficient analysis of large-scale datasets: <br>
   
     &bull; Operator-based Galerkin projection: Stochastic two-level SPOD-Galerkin model <br>
     &bull; Data-driven time-delay Koopman approach: Stochastic Low-dimensional Inflated Convolutional Koopman (SLICK) model <br>
