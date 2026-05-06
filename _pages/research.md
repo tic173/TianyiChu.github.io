@@ -25,7 +25,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/BOED.png" class="research-thumb" alt="Superfluid helium">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/BOED.svg" class="research-thumb" alt="Superfluid helium">
 <div class="research-body">
 <h4 class="research-title">Bayesian sequential feedback loops for Rheometry</h4>
 <p class="research-desc">Near-real-time soft-material characterization via bubble-collapse estimators, paired with affordable Bayesian optimal experimental design (BOED), and data assimilation (DA). This framework enable efficient recovery of material properties, uncertainty-aware model selection, and adaptive refinement of experimental protocols:<br>
@@ -68,7 +68,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/interface.png" class="research-thumb" alt="Atomic manipulation">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/interface.svg" class="research-thumb" alt="Atomic manipulation">
 <div class="research-body">
 <h4 class="research-title">Multi-fluid interface instability</h4>
 <p class="research-desc">Competition between Rayleigh&ndash;Taylor and Faraday mechanisms at density-contrast interfaces produces multi-modal regimes, sharp transitions, and breakup maps under vibration — with implications for mixing, atomization, and near-surface gas transport:<br>
