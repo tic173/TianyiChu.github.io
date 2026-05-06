@@ -97,7 +97,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 </div>
 
 
-<div class="research-card">
+<!-- <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Weak interaction diagram">
 <div class="research-body">
 <h4 class="research-title">Dynamics of Buoyant vortices</h4>
@@ -110,4 +110,4 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 </div>
 </div>
 
-</div>
+</div> -->
