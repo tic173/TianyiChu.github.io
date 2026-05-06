@@ -84,6 +84,22 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <div class="research-card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Weak interaction diagram">
 <div class="research-body">
+<h4 class="research-title">Acoustically-driven slit</h4>
+<p class="research-desc">A comprehensive investigation has been conducted for vortical flows, taking into account the complex interplay of buoyancy effects, including gravity, density variations, and surface tension. Equations of motions are derived, offering synergistic insights into the broader spectrum of vortical fluid flow phenomena. In particular, we consider two intertwined sub-projects:<br>
+  
+    &bull; Incompressible vortex filaments with helical symmetry <br>
+    &bull; Point vortices within the weakly compressible regime <br>
+  
+ </p>
+</div>
+</div>
+
+</div>
+
+
+<div class="research-card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Weak interaction diagram">
+<div class="research-body">
 <h4 class="research-title">Dynamics of Buoyant vortices</h4>
 <p class="research-desc">A comprehensive investigation has been conducted for vortical flows, taking into account the complex interplay of buoyancy effects, including gravity, density variations, and surface tension. Equations of motions are derived, offering synergistic insights into the broader spectrum of vortical fluid flow phenomena. In particular, we consider two intertwined sub-projects:<br>
   
