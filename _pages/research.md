@@ -85,10 +85,11 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/slit.png" class="research-thumb" alt="Acoustic slit diagram">
 <div class="research-body">
 <h4 class="research-title">Acoustically-driven slit</h4>
-<p class="research-desc">A comprehensive investigation has been conducted for vortical flows, taking into account the complex interplay of buoyancy effects, including gravity, density variations, and surface tension. Equations of motions are derived, offering synergistic insights into the broader spectrum of vortical fluid flow phenomena. In particular, we consider two intertwined sub-projects:<br>
-  
-    &bull; Incompressible vortex filaments with helical symmetry <br>
-    &bull; Point vortices within the weakly compressible regime <br>
+<p class="research-desc">We quantify how incident acoustic energy is dissipated for a plane-wave passing through a slit geometry. We construct energy-raked, mode-by-mode fields for spectral kinetic energy and viscous loss components. The KE--VL spectra describe parameter regimes that enhance or suppress acoustic damping in slit geometries, providing a physically interpretable basis for acoustic-based design:<br>
+    
+    &bull; Broad parameter space in incident sound pressure level, Strouhal number, and Reynolds number  <br>
+    &bull; Vortex shedding at high incident sound amplitude, vortical motion-dominant absorption <br>
+    &bull; Attached boundary layers at low incident sound amplitude, viscous-dominant absorption <br>
   
  </p>
 </div>
@@ -101,7 +102,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Weak interaction diagram">
 <div class="research-body">
 <h4 class="research-title">Dynamics of Buoyant vortices</h4>
-<p class="research-desc">A comprehensive investigation has been conducted for vortical flows, taking into account the complex interplay of buoyancy effects, including gravity, density variations, and surface tension. Equations of motions are derived, offering synergistic insights into the broader spectrum of vortical fluid flow phenomena. In particular, we consider two intertwined sub-projects:<br>
+<p class="research-desc">A comprehensive investigation has been conducted for vortical flows, taking into account the complex interplay of buoyancy effects, including gravity, density variations, and surface tension. Equations of motion are derived, offering synergistic insights into the broader spectrum of vortical fluid flow phenomena. In particular, we consider two intertwined sub-projects:<br>
   
     &bull; Incompressible vortex filaments with helical symmetry <br>
     &bull; Point vortices within the weakly compressible regime <br>
