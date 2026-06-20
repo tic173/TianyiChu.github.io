@@ -10,6 +10,7 @@ permalink: /
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational fluid dynamics</a>
+  <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Flow control</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Model-order reduction</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Hydrodynamic instabilities</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Multiphase flows</a>
