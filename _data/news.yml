@@ -2,8 +2,7 @@
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
 
-- date: 12 June, 2026
-  headline: "New <p><a href="https://arxiv.org/abs/2606.13584">preprint</a><p> on the limits of constant-parameter constitutive models for hydrogels under inertial cavitation. Collaboration with Jon Estrada’s group at UMich."
-
+- date: "June 12, 2026"
+  headline: 'New <a href="https://arxiv.org/abs/2606.13584">preprint</a> on the limitations of constant-parameter constitutive models for hydrogels under inertial cavitation, in collaboration with Jon Estrada’s group at UMich.'
 - date: 1 May, 2026
   headline: "Our paper on accelerating Bayesian optimal experimental design for soft material characterization is accepted to the <i>Journal of Computational Physics</i>. Collaboration with Jon Estrada’s group at UMich."
