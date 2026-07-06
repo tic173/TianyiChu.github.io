@@ -24,7 +24,7 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Uncertainty quantification</a>  
 </div>
 
-High-speed, turbulent, and complex flows are fundamental to diverse natural and engineered systems, where they critically influence energy efficiency and sustainability. Yet, their complex dynamics, multiscale turbulence, and coupled multiphysics hinder accurate prediction and efficient control. My research aims to address this gap by developing unified digital twins (DTs) that dynamically integrate computations with physical processes. These adaptive DTs operate within a closed-loop, receding-horizon feedback loop that couples models, simulations, and data to enable system optimization, informed decision-making, predictive control, real-time forecasting, and uncertainty quantification.
+My research focuses on high-speed, turbulent, and multiphysics flows that shape energy efficiency and sustainability in natural and engineered systems. I develop adaptive digital twins that couple simulations, models, and data in closed-loop feedback frameworks to improve prediction, control, forecasting, uncertainty quantification, and decision-making.
 
 <!-- <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
