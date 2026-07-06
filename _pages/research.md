@@ -55,7 +55,7 @@ Radial basis functions (RBF)-based discretizations have emerged as a viable alte
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/quantum-computing.svg" class="research-thumb" alt="Quantum circuit">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/SLICK.png" class="research-thumb" alt="Quantum circuit">
 <div class="research-body">
 <h4 class="research-title">Linear spectral model-order reduction</h4>
 <p class="research-desc"> Real-time prediction and control remain a major challenge for high-speed turbulent flows. We develop two linear stochastic reduced-order models (ROMs) to enable rapid forecasting and decision-making for broadband turbulent flows. These models forecast short-term transient dynamics while preserving long-term statistical properties, reducing computational cost and enabling efficient analysis of large-scale datasets: <br>
