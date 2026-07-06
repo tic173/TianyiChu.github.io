@@ -40,7 +40,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/partons.svg" class="research-thumb" alt="Parton model">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/rbf.png" class="research-thumb" alt="Parton model">
 <div class="research-body">
 <h4 class="research-title">Meshfree computational methods</h4>
 <p class="research-desc">
