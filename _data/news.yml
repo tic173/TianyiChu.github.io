@@ -3,6 +3,8 @@
 # Each entry needs: date, headline
 
 - date: "June 12, 2026"
+  headline: 'Our <a href="https://arxiv.org/abs/2512.19507">paper</a> on energy dissipation mechanisms in an acoustically-driven slit is accepted to the <i>Journal of Fluid Mechanics</i>.'
+- date: "June 12, 2026"
   headline: 'New <a href="https://arxiv.org/abs/2606.13584">preprint</a> on the limitations of constant-parameter constitutive models for hydrogels under inertial cavitation, in collaboration with Jon Estrada’s group at UMich.'
 - date: 1 May, 2026
   headline: "Our paper on accelerating Bayesian optimal experimental design for soft material characterization is accepted to the <i>Journal of Computational Physics</i>. Collaboration with Jon Estrada’s group at UMich."
