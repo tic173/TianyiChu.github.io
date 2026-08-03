@@ -48,5 +48,5 @@ The main approaches used for my research include computational fluid dynamics, d
 ### Upcoming Events
 
 
-####  20th U.S. National Congress on Theoretical and Applied Mechanics
-Pasadena, California. June 21-25, 2026
+####  APS Division of Fluid Dynamics Annual Meeting 2026
+Orlando, Florida. Nov. 22-24, 2026
